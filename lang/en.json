@@ -431,5 +431,7 @@
   "YZECORIOLIS.PublicRoll": "Public Roll",
   "YZECORIOLIS.PrivateGMRoll": "Private GM Roll",
   "YZECORIOLIS.BlindGMRoll": "Blind GM Roll",
-  "YZECORIOLIS.SelfRoll": "Self Roll"
+  "YZECORIOLIS.SelfRoll": "Self Roll",
+
+  "YZECORIOLIS.ArmorPenetration": "Armor Penetration"
 }
