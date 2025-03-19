@@ -191,6 +191,7 @@ async function showChatMessage(chatMsgOptions, resultData, roll) {
     critText: getRollCritText(resultData.rollData),
     damage: getRollDmg(resultData.rollData),
     damageText: getRollDmgText(resultData.rollData),
+    armorPenetration: getRollArmorPenetration(resultData.rollData),
     range: getRollRange(resultData.rollData),
     features: getRollFeatures(resultData.rollData),
     itemModifiersBonus: getRollModifiersBonus(resultData.rollData),
@@ -247,12 +248,17 @@ async function updateChatMessage(
     critText: getRollCritText(resultData.rollData),
     damage: getRollDmg(resultData.rollData),
     damageText: getRollDmgText(resultData.rollData),
+    armorPenetration: getRollArmorPenetration(resultData.rollData),
     range: getRollRange(resultData.rollData),
     features: getRollFeatures(resultData.rollData),
     itemModifiersBonus: getRollModifiersBonus(resultData.rollData),
     itemModifiersChecked: getRollModifiersChecked(resultData.rollData),
     prayerModifiersChecked: getPrayerModifiersChecked(resultData.rollData),
   };
+
+  function getRollArmorPenetration(rollData) {
+    return rollData.armorPenetration ? `${rollData.armorPenetration}` : '0';
+  }
 
   return renderTemplate(
     "systems/yzecoriolis/templates/sidebar/roll.html",
