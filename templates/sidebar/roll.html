@@ -67,6 +67,7 @@
           {{#if_eq rollType 'weapon'}}
             <tr>
               <td colspan="2">{{localize "YZECORIOLIS.Damage"}}: {{damage}} {{#if damageText}}({{damageText}}){{/if}}</td>
+              <td colspan="2">{{localize "YZECORIOLIS.ArmorPenetration"}}: {{armorPenetration}}</td>
             </tr>
             <tr>
               <td colspan="2">{{localize "YZECORIOLIS.Crit"}}: {{#if_gt crit 0}}{{crit}}{{else}}-{{/if_gt}} {{#if critText}}({{critText}}){{/if}}</td>
