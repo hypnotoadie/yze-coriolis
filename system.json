@@ -1,6 +1,6 @@
 {
-    "name": "yzecoriolis",
-    "title": "Coriolis",
+    "name": "yzecorioliscr",
+    "title": "Coriolis:Combat Reloaded",
     "description": "Coriolis System for Foundry VTT.",
     "version": "3.9.4",
     "compatibility": {
@@ -68,6 +68,6 @@
     "primaryTokenAttribute": "health",
     "secondaryTokenAttribute": "power",
     "url": "",
-    "manifest": "https://github.com/winks-vtt/yze-coriolis/releases/latest/download/system.json",
-    "download": "https://github.com/winks-vtt/yze-coriolis/releases/download/v3.9.4/coriolis.zip"
+    "manifest": "https://raw.githubusercontent.com/hypnotoadie/yze-coriolis/refs/heads/master/system.json",
+    "download": "https://github.com/hypnotoadie/yze-coriolis/archive/refs/heads/master.zip"
 }
